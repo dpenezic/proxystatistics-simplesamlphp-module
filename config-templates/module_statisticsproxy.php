@@ -8,15 +8,17 @@
 
 $config = array(
 
-    'serverName' => 'localhost',
+	'serverName' => 'localhost',
 
-    'userName' => 'stats',
+	'port' => '1234',
 
-    'password' => 'stats',
+	'userName' => 'stats',
 
-    'databaseName' => 'STATS',
+	'password' => 'stats',
 
-    'identityProvidersTableName' => 'identityProviders',
+	'databaseName' => 'STATS',
 
-    'serviceProvidersTableName' => 'serviceProviders',
+	'identityProvidersTableName' => 'identityProviders',
+
+	'serviceProvidersTableName' => 'serviceProviders',
 );
